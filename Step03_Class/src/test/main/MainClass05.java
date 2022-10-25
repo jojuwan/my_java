@@ -22,6 +22,7 @@ public class MainClass05 {
 		r1.widhth=10;
 		r1.showArea();
 		
+		//폭과 높이가 5, 10 인 사각형 객체
 		Rect r2=new Rect();
 		r2.widhth=5;
 		r2.height=10;
