@@ -1,10 +1,14 @@
 package test.mypac;
 
 public class Rect {
+	//필드 2개
 	public int widhth;
 	public int height;
+	//메소드
 	public void showArea() {
-		System.out.println(this.widhth*this.height);
+		//필드에 있는 값을 활용해서 면적을 계산한다.
+		int area = this.widhth*this.height;
+		System.out.println("면적은:"+area+" 입니다.");
 	}
 }
 	

@@ -17,9 +17,14 @@ import test.mypac.Rect;
 public class MainClass05 {
 	public static void main(String[] args) {
 		//클래스 설계후 여기에서 테스트 해 보세요.
-		Rect m1=new Rect();
-		m1.height=8;
-		m1.widhth=10;
-		m1.showArea();
+		Rect r1=new Rect();
+		r1.height=8;
+		r1.widhth=10;
+		r1.showArea();
+		
+		Rect r2=new Rect();
+		r2.widhth=5;
+		r2.height=10;
+		r2.showArea();
 	}
 }
