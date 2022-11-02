@@ -31,6 +31,7 @@ public class MyFrame extends JFrame{
 	public static void main(String[] args) {
 		//MyFrame 객체 생성하기
 		new MyFrame("나의 프레임");
+		
 	}
 	
 }
